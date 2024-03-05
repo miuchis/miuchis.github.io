@@ -47,6 +47,25 @@
     padding: 40px 0 40px 0 ;
     /*         overflow: hidden; */
 }
+.breadcrumb{
+    display: flex;
+    color: white;
+}
+.breadcrumb .small-icon{
+    width: 56px;
+}
+
+.breadcrumb a{
+    color: lightgray;
+    /*text-transform: uppercase;*/
+    vertical-align: middle;
+    font-size:16px;
+    font-family: "Tahoma",sans-serif;
+
+}
+.breadcrumb p{
+}
+
 .section-content{
     margin: 0;
     position: absolute;
