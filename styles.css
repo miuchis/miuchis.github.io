@@ -187,6 +187,7 @@ p{
     font-size: 1.5rem;
 }
 @media only screen and (max-width: 900px){
+
     /*.clock{*/
     /*    !*max-width:  100%;*!*/
     /*    font-size: .45rem;*/
@@ -272,6 +273,14 @@ p{
     p{
         font-size: 40px;
         font-weight: 400;
+    }
+    .breadcrumb .small-icon{
+        width: 110px;
+    }
+
+    .breadcrumb a{
+        font-size:2rem;
+
     }
 }
 
