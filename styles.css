@@ -49,7 +49,11 @@
 }
 .breadcrumb{
     display: flex;
-    color: white;
+    /*color: white;*/
+    font-size:16px;
+    font-family: "Tahoma",sans-serif;
+    color: darkgray;
+    align-items: center;
 
 }
 .breadcrumb .small-icon{
@@ -61,11 +65,20 @@
     /*text-transform: uppercase;*/
     vertical-align: middle;
 }
+.breadcrumb .a-icon{
+    color: blue;
+    /*margin-bottom: fill;*/
+}
+.breadcrumb .a-text{
+    color: blue;
+
+}
+
 .breadcrumb p{
     font-size:16px;
     font-family: "Tahoma",sans-serif;
     color: darkgray;
-
+    /*vertical-align: middle;*/
 }
 
 .section-content{
@@ -280,7 +293,7 @@ p{
         width: 110px;
     }
 
-    .breadcrumb a{
+    .breadcrumb{
         font-size:2rem;
 
     }
