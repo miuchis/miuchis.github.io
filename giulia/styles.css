@@ -33,6 +33,13 @@
 .save-regular-section{
     padding: 00px 0 80px 0;
 }
+.foto{
+    /*position: absolute;*/
+    height: 100vh;
+    width:100%;
+    object-fit: cover;
+    object-position: 50% 15%;
+}
 .regular-section .svg{
     width: 110px;
     /*filter : hue-rotate(180deg);*/
