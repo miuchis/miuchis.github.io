@@ -1,0 +1,94 @@
+<html>
+<head>
+  <link rel="icon" href="images/baseImage.png"/>
+  <link rel="stylesheet" href="styles.css">
+<!--   <meta property="og:url" content="https://sites.google.com/view/xvmiuchi/miu"> -->
+  <meta property="og:title" content="Miuchi XV">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Fiesta XV Miuchi">
+  <meta itemprop="name" content="Miuchi XV">
+  <meta itemprop="description" content="Fiesta XV Miuchi">
+<!--   <meta itemprop="url" content="https://sites.google.com/view/xvmiuchi/miu"> -->
+<meta itemprop="thumbnailURL" content="https://sandrau.github.io/images/baseImage.png">
+<meta itemprop="image" content="https://sandrau.github.io/images/baseImage.png">
+<meta itemprop="imageURL" content="https://sandrau.github.io/images/baseImage.png">
+<meta property="og:image" content="https://sandrau.github.io/images/baseImage.png">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+</head>
+<body>
+<section class="section">
+    <div class="section-content">
+        <img  src="./images/M.png" />
+        <!--<h2>Countdown Clock 1</h2>-->
+        <p id="typed-text" ></p>
+        <div class="clock" id="clock1">
+            <div class="clock-item"><div  data-value="days"></div><div class="clock-details">dias</div></div>
+            <div class="clock-item"><div data-value="hours"></div><div class="clock-details">hs</div></div>
+            <div class="clock-item"><div data-value="minutes"></div><div class="clock-details">min</div></div>
+            <div class="clock-item"><div data-value="seconds"></div><div class="clock-details">seg</div></div>
+        </div>
+    </div>
+    <audio>
+      <source autoplay src="mixkit-old-typewriter-typing-1372.wav" type="audio/wav">
+    </audio>
+</section>
+<section class="regular-section">
+    <img class="icon" src="./images/fiesta.png" />
+    <H1>Fiesta</H1>
+    <p>Sábado 13 de Abril</p>
+    <p>Palacio San Miguel, Salón Pueyrredón,</p><p> Suipacha 84, Capital Federal.</p>
+    <p>¡Te espero de 21:00 a 5:00 para festejar juntos!</p>
+    <div class="button-container">
+        <a class="button" href="comollegar.html">Como llegar?</a>
+    </div>
+</section>
+
+<section class="regular-section-alt">
+    <img class="icon" src="./images/dresscode.png" />
+    <H1>Dress Code</H1>
+    <p>Elegante. No White. No Pink. No Silver</p>
+</section>
+
+<section class="regular-section">
+    <H1>RSVP</H1>
+    <p>Espero que puedas acompañarme</p>
+    <p>¡Confirmá tu asistencia!</p>
+    <div class="button-container">
+        <a class="button" href="confirmar.html">Confirmar asistencia</a>
+    </div>
+</section>
+
+<section class="regular-section-alt">
+    <img class="icon" src="./images/musica.png" />
+    <H1>Música</H1>
+    <p>¡Ayudame sugiriendo las canciones que pensás que no pueden faltar en la fiesta!</p>
+    <div class="button-container">
+        <a class="button" href="sugerircancion.html">sugerir cancion</a>
+    </div>
+</section>
+<section class="regular-section">
+    <a style="color:white" href="https://www.instagram.com/miu.chissss"><img class="icon" src="./images/instagram.png" /></a>
+    <H1><a style="color:white" href="https://www.instagram.com/miu.chissss">@miu.chissss</a></H1>
+    <p>¡Preparate para esta gran fiesta!</p>
+    <p>Seguime en mi cuenta de Instagram y etiquetame en tus fotos y videos.</p>
+    <div class="button-container">
+        <a class="button" href="https://www.instagram.com/miu.chissss">ver instagram</a></div>
+</section>
+</body>
+<script type="text/javascript" src="clock.js"></script>
+<script defer>
+//         const playAudio = (path = 'mixkit-old-typewriter-typing-1372.wav') => new Audio(path).play()
+//         playAudio()
+//         var audio = new Audio('mixkit-old-typewriter-typing-1372.wav');
+//         audio.play();
+      var typed = new Typed('#typed-text', {
+         strings: ["Sábado 13 de Abril, Palacio San Miguel, faltan solo..."],
+         typeSpeed: 60,
+         backSpeed: 100,
+         loop: false
+     });
+   </script>
+
+</html>

@@ -36,6 +36,13 @@
 .regular-section .icon{
     width: 110px;
 }
+.mini-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.mini-section .icon{
+    width: 60px;
+}
 .regular-section-alt .icon{
     width: 110px;
 }
@@ -44,6 +51,41 @@
     /*         -ms-transform: translateY(-50%); */
     /*         transform: translateY(-50%); */
     min-height: 100vh;
+    padding: 40px 0 40px 0 ;
+    /*         overflow: hidden; */
+}
+.section-new{
+    /*         top: 50%; */
+    /*         -ms-transform: translateY(-50%); */
+    /*         transform: translateY(-50%); */
+    /*min-height: 100vh;*/
+    padding: 40px 0 40px 0 ;
+    /*         overflow: hidden; */
+}
+.left{
+    float: left;
+    /*         top: 50%; */
+    /*         -ms-transform: translateY(-50%); */
+    /*         transform: translateY(-50%); */
+    /*min-height: 100vh;*/
+    /*background: red;*/
+    padding: 40px 0 40px 0 ;
+    /*         overflow: hidden; */
+    /*margin: 0;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+    /*min-width:100%;*/
+
+}
+.right{
+    float: right;
+    /*         top: 50%; */
+    /*         -ms-transform: translateY(-50%); */
+    /*         transform: translateY(-50%); */
+    /*min-height: 100vh;*/
     padding: 40px 0 40px 0 ;
     /*         overflow: hidden; */
 }
@@ -81,6 +123,16 @@
     /*vertical-align: middle;*/
 }
 
+.section-content-new{
+    /*background: blue !important;*/
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width:60%;
+}
 .section-content{
     margin: 0;
     position: absolute;
@@ -131,6 +183,14 @@ H1{
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 3px;
+}
+
+H2{
+    /*text-transform: uppercase;*/
+    /*font-family: Monserrat, sans-serif;*/
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 p{
     /*font-family: Monserrat, sans-serif;*/
