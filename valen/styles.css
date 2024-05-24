@@ -3,6 +3,11 @@
     height:100%;
 }
 
+@font-face {
+    font-family: Valen;
+    src: url("font/valen.otf") format("opentype");
+}
+
 .sugerir-cancion{
     width:490px;
     height:90%;
@@ -22,21 +27,35 @@
 .regular-section{
     padding: 80px 0 80px 0;
     background-color:white;
-    color: #ff61a1;
+    /*color: #ff61a1;*/
+    color:rgb(84,106,142);
+
 }
 h3{
-    text-transform: uppercase;
-    /*font-family: Monserrat, sans-serif;*/
+    /*text-transform: uppercase;*/
+    /*font-family: Valen, sans-serif;*/
     font-size: 25px;
+    /*font-size: 50px;*/
     font-weight: 400;
     letter-spacing: 3px;
 }
+/*h4{*/
+/*    !*text-transform: uppercase;*!*/
+/*    font-family: Valen, sans-serif;*/
+/*    !*font-size: 25px;*!*/
+/*    font-size: 60px;*/
+/*    !*font-weight: 400;*!*/
+/*    font-weight: 800;*/
+/*    letter-spacing: 3px;*/
+/*}*/
 .regular-section-alt{
 
     padding: 80px 0 80px 0;
     /*background-color:rgba(219,162,187,.25);*/
-    background-color:#ff61a1;
-/*rgba(256,256,256,.25);*/
+    /*background-color:#ff61a1;*/
+    background-color:rgb(84,106,142);
+
+    /*rgba(256,256,256,.25);*/
 }
 .save-regular-section .small-icon{
     width: 110px;
@@ -46,7 +65,9 @@ h3{
 }
 .regular-section .icon{
     width: 110px;
-    background-color:#ff61a1;
+    /*background-color:#ff61a1;*/
+    background-color:rgb(84,106,142);
+
     border-radius: 20px;
     padding: 10px;
 
@@ -68,7 +89,7 @@ h3{
     /*         transform: translateY(-50%); */
     min-height: 100vh;
     padding: 40px 0 40px 0 ;
-    background-image: url('./images/fondo.jpg');
+    background-image: url('./images/fondo.png');
     /*         overflow: hidden; */
 }
 .section-new{
@@ -153,16 +174,19 @@ h3{
     font-size: 17px;
     color: white;
 
+    background-color: rgb(84,106,142);/*rgb(235, 98, 239);*/
 
-    background-color: #ff61a1;/*rgb(235, 98, 239);*/
+    /*background-color: #ff61a1;!*rgb(235, 98, 239);*! rgb(84,106,142)*/
     border-radius: 20px;
     padding: 10px 40px;
-    border: 1px solid #ff61a1;/*rgb(235, 98, 239);*/
+    /*border: 1px solid #ff61a1;!*rgb(235, 98, 239);*!*/
+    border: 1px solid rgb(84,106,142);/*rgb(235, 98, 239);*/
     margin: 30px 30px;
 }
 .button:hover{
     background-color: white;
-    color: rgb(235, 98, 239);
+    color: rgb(84,106,142)
+    /*rgb(235, 98, 239);*/
 }
 body {
     /*background-color: #38a4ef;*/
@@ -178,11 +202,28 @@ body {
 /*    Times , Verdana, Helvetica ,Georgia*/
 }
 H1{
-    text-transform: uppercase;
-    /*font-family: Monserrat, sans-serif;*/
-    font-size: 25px;
-    font-weight: 400;
+    /*text-transform: uppercase;*/
+    font-family: Valen, sans-serif;
+    /*font-size: 25px;*/
+    font-size: 50px;
+    /*font-weight: 400;*/
+    font-weight: 800;
     letter-spacing: 3px;
+}
+.foto{
+    /*-webkit-text-stroke: 2px black;*/
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    /*text-shadow: -10px 0 rgb(182,196,215);*/
+    text-shadow: -10px 0 rgb(182,196,215), 0 10px white, 10px 0 black, 0 -1px black;
+
+    /*text-transform: uppercase;*/
+    font-family: Valen, sans-serif;
+    /*font-size: 25px;*/
+    font-size: 250px;
+    /*font-weight: 400;*/
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: rgb(84,106, 142);
 }
 
 H2{
@@ -213,7 +254,8 @@ p{
 }
 .small-clock-item {
     font-family: Monserrat, sans-serif;
-    background-color: rgba(219, 162, 187, .25);
+    background-color: rgba(84,106, 142, 0.40);
+    /*background-color: rgba(219, 162, 187, .25);*/
     color: #fff;
     display: inline-block;
     text-align:center;
@@ -243,7 +285,8 @@ p{
 }
 .clock-item {
     font-family: Monserrat, sans-serif;
-    background-color: rgba(219, 162, 187, .25);
+    background-color: rgba(84,106, 142, 0.40);
+    /*rgba(219, 162, 187, .25);*/
     color: #fff;
     display: inline-block;
     text-align:center;
