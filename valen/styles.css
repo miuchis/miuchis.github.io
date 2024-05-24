@@ -90,6 +90,12 @@ h3{
     min-height: 100vh;
     padding: 40px 0 40px 0 ;
     background-image: url('./images/fondo.png');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     /*         overflow: hidden; */
 }
 .section-new{
