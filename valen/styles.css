@@ -31,6 +31,9 @@
     color:rgb(84,106,142);
 
 }
+.last{
+    padding: 80px 0 0 0 !important;
+}
 h3{
     /*text-transform: uppercase;*/
     /*font-family: Valen, sans-serif;*/
